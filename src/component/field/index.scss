@@ -29,8 +29,5 @@ gap: s.space(2);
     &:focus{
     border-color: s.color(main);
     }
-    &--error{
-    border-color: s.color(red)!important;
-    }
   }
 }
