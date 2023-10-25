@@ -3,10 +3,10 @@
 
 .field--checkbox {
   .field__wrapper {
-    border: 1px solid rgb(185, 123, 7);
+    border: 1px solid rgb(132, 7, 185);
     padding: s.space(4);
     border-radius: 10px;
-    background-color: #ff9e0388;
+    background-color: #b803ff88;
 
     display: flex;
     gap: s.space(2);
@@ -18,8 +18,8 @@
     transition: border-color 0.3s;
 
     &:hover {
-      border-color:rgb(252, 141, 7);
-       background-color: #ff9e03e0;
+      border-color:rgb(217, 106, 251);
+       background-color: #a500bbe0;
     }
 
     &[active] .field__icon {
@@ -31,7 +31,7 @@
   .field__label--checkbox {
     font-size: 16px;
   
-    color: s.color('dark');
+    color: rgb(237, 183, 248);
     padding-top: 3px;
   
   }

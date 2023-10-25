@@ -13,13 +13,13 @@
 
         <div class="form">
             <div class="form__item">
-                {{> field action="recoveryForm.change" label="Ел. адреса" type="email" name="email" placeholder="Ваш
-                e-mail" }}
+                {{> field action="recoveryForm.change" label="Mail" type="email" name="email" placeholder="Email please"
+                }}
                 <span name="email" class="form__error">Error</span>
             </div>
         </div>
 
-        <button onclick="recoveryForm.submit()" class="button button--disabled" type="button">Restore mail</button>
+        <button onclick="recoveryForm.submit()" class="button button--disabled" type="button">Restore</button>
 
         <span class="alert alert--disabled">attention, there is a problem</span>
     </form>

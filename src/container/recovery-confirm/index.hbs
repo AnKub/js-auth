@@ -12,24 +12,24 @@
 
         <div class="form">
             <div class="form__item">
-                {{> field action="recoveryConfirmForm.change" label="Код" type="number" name="code" placeholder="Ваш
-                код" }}
+                {{> field action="recoveryConfirmForm.change" label="Code confirmation" type="number" name="code"
+                placeholder="Code please" }}
                 <span name="code" class="form__error">Error</span>
             </div>
             <div class="form__item">
-                {{> field-password action="recoveryConfirmForm.change" label="Новий пароль" name="password"
-                placeholder="Введіть пароль" }}
+                {{> field-password action="recoveryConfirmForm.change" label="New password" name="password"
+                placeholder="Enter the password" }}
                 <span name="password" class="form__error">Error</span>
             </div>
             <div class="form__item">
-                {{> field-password action="recoveryConfirmForm.change" label="Новий пароль ще раз" name="passwordAgain"
-                placeholder="Введіть пароль" }}
+                {{> field-password action="recoveryConfirmForm.change" label="Enter the password again"
+                name="passwordAgain"
+                placeholder="Enter the password" }}
                 <span name="passwordAgain" class="form__error">Error</span>
             </div>
         </div>
 
-        <button onclick="recoveryConfirmForm.submit()" class="button button--disabled" type="button">Змінити
-            пароль</button>
+        <button onclick="recoveryConfirmForm.submit()" class="button button--disabled" type="button">Change</button>
 
         <span class="alert alert--disabled">Attention, we have some trouble!</span>
     </form>
