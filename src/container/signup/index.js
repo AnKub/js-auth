@@ -4,7 +4,7 @@ import {
   REG_EXP_PASSWORD,
 } from '../../script/form'
 
-// import { saveSession } from '../../script/session'
+import { saveSession } from '../../script/session'
 
 class SignupForm extends Form {
   FIELD_NAME = {
