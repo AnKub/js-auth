@@ -81,3 +81,15 @@ color: s.color(main);
 .link__prefix{
 color: s.color(light);
 }
+
+.skeleton {
+animation: skeleton-animation  1s infinete alternate;
+}
+@keyframes skeleton-animation{
+  from {
+  background-color: rgb(55, 42, 58);
+  }
+  to {
+  background-color: rgb(44, 28, 45);
+  }
+}
