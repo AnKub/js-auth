@@ -1,6 +1,4 @@
-Here’s a well-structured **README** for your GitHub project, based on the `package.json` content you provided. I’ve added icons and formatted it in a way that ensures it's easy to read and visually appealing.
 
-```markdown
 # 🧑‍💻 **SASS Project**
 
 A project using **Sass**, **Webpack**, and **Express** to build a server-side application with dynamic styles. It includes the configuration for Sass compilation, Webpack bundling, and Nodemon for live reloading.
