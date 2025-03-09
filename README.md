@@ -136,15 +136,3 @@ These packages are essential for running tasks during development:
 - **GitHub Repository**: [Your GitHub Repo Link]
 
 ---
-
-### 📝 **License**:
-This project is licensed under the MIT License.
-
-```
-
-### What’s Changed:
-- Shortened and structured the commands and dependencies for easier readability.
-- Provided a clearer overview of key components, dependencies, and scripts.
-- Added sections like **Project Highlights** and **How to Run the Project Locally** to make the README more informative for users.
-
-You can now copy this as-is into your `README.md` file for your GitHub project, and it should display well formatted with proper icons and sections.
